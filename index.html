@@ -25,9 +25,8 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-
-				<h3>Entrepreneur d'Intérêt Général</h3>
 				<img src="./img/logo.png" alt="logo"/>
+				<h3>Entrepreneur d'Intérêt Général</h3>
 				<p>9 défis | 11 lauréats</p>
 				<img width="50%" src="./img/lll-e1481624890597-1024x578.jpg" alt="promo2017"/>
 				<p><small>Les administrations ont identifié un irritant et ont publiés un défi</small></p>
@@ -57,8 +56,9 @@
 						* Croisement de 2 base de données => economie de quelques millions pour l'administration
 						* Ouverture interadministration et partage de base de données => peut règler le même irritant dans plusieurs administrations
 						* Maquettage d'un produit en 1 mois => économie d'une AMOA d'un an avec appel marché public
-						* Panorama fonctionnel et technique en 1 mois =>  outil de médiation entre départements et services
+						* Panorama fonctionnel et technique des métiers en 1 mois =>  outil de médiation entre départements et services
 						* Mise au goût du jour en passant de l'aspect visuel du site du Ministère
+						* Déploiment d'un prototype sur des données de simulation pour tester la faisabilité du défi
 					</script>
 				<section>
 				<section data-markdown>
@@ -80,7 +80,9 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
-
+				markdown: {
+        smartypants: true
+    }
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
